@@ -124,5 +124,37 @@ a:hover{
 
 .grid-service{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr  );
+  padding:1rem 5rem;
+  margin: 2rem;
+  /* background-color: aquamarine; */
+  gap: 5rem;
+  
+  
+  .grid-child{
+    height: 250px;
+    background: #f7f3fa;
+    border-radius: 20px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+
+  }
+}
+
+
+.one{
+color: black;
+/* line-height: 25px; */
+/* font-family: roboto; */
+
+}
+
+.uiux{
+ padding: 5px 17px;
+ color: #2c4e35;
+}
+
+.uiuxx{
+  font-size: 13px;
+  line-height: 20px;
+  padding: 0 7px;
 }
