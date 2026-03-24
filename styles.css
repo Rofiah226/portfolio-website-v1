@@ -8,7 +8,8 @@ body {
   padding: 30px;
   
   min-height: 200vh;
-  font-size: 50px;
+  font-family: roboto;
+  /* font-size: 50px; */
   /* margin-top: 20px; */
 }
 
@@ -62,4 +63,66 @@ border-radius: 100px;
 background-color: #ffa800;
 color: #2c4e35;
 font-size: 20px;
+}
+
+a:hover{
+  color: white;
+  transition: all 1s;
+}
+
+.container1{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 5%;
+  line-height: 4rem;
+  font-size: 22px;
+  
+
+  span{
+    color: #ffa800;
+    text-decoration: underline;
+  }
+
+  .intro{
+    font-size: 40px;
+  }
+
+  .note{
+    line-height: 2rem;
+    margin-bottom: 20px;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 15px;
+    border-radius: 100px;
+    /* margin-top: 10px; */
+    /* display: inline-block; */
+  }
+
+  a:hover{
+    background-color: black;
+    color: white;
+    transition: all 1s;
+  }
+
+
+}
+
+.services{
+  padding:0 5%;
+  line-height: 3rem;
+
+
+
+  span{
+    color: #ffa800;
+  }
+}
+
+.grid-service{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
