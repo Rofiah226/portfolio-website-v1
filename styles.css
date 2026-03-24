@@ -6,7 +6,8 @@
 
 body {
   padding: 30px;
-  height: 100vh;
+  
+  min-height: 200vh;
   font-size: 50px;
   /* margin-top: 20px; */
 }
@@ -14,15 +15,16 @@ body {
 header {
   display: flex;
   /* flex-direction: column; */
-  gap: 15rem;
-  padding: 4px 0;
+  /* gap: 15rem; */
+  justify-content: space-between;
+  padding: 10px ;
   font-size: 22px;
   border-radius: 100px;
   background-color: #2c4e35;
   color: white;
   align-items: center;
   position: sticky;
-  width: 100%;
+  /* width: 100%; */
   top: 0;
   left: 0;
   z-index: 1000;
@@ -46,5 +48,18 @@ ul {
 
   li {
     list-style: none;
+
   }
+  .home{
+    color: #ffa800;
+  }
+}
+
+.resume a{
+text-decoration: none;
+padding: 10px;
+border-radius: 100px;
+background-color: #ffa800;
+color: #2c4e35;
+font-size: 20px;
 }
