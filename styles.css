@@ -46,6 +46,7 @@ header {
 ul {
   display: flex;
   gap: 3.5rem;
+  align-items: center;
 
   li {
     list-style: none;
@@ -53,7 +54,16 @@ ul {
   }
   .home{
     color: #ffa800;
+    /* padding: 3px; */
   }
+}
+
+
+
+li a{
+  text-decoration: none;
+  color: white;
+  display: block;
 }
 
 .fa-moon{
@@ -202,4 +212,9 @@ color: black;
   font-size: 13px;
   line-height: 20px;
   padding: 0 7px;
+}
+
+
+#projects{
+padding: 20px;
 }

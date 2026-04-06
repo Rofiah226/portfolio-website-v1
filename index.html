@@ -1,68 +1,109 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
-    <title>Rofiah's Portfolio</title>
-</head>
-<body>
-    <header>
 
-        <div class="logo">
-            <img src="./image/Group 1.png" alt="" width="40">
-            <p>Rofiat</p>
-        </div>
-        <nav>
-            <ul>
-                <li class="home">Home</li>
-                <li>Services</li>
-                <li>Projects</li>
-                <li>Contact</li>
-                <li class="resume"><a href="">Resume</a></li>
-                <li><i class="fa-solid fa-moon"></i></li>
-            </ul>
-        </nav>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+    <title>Rofiah's Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./image/Group 1.png" alt="" width="40" />
+        <p>Rofiat</p>
+      </div>
+      <nav>
+        <ul>
+          <li class="home"><a href="#home">Home</a></li>
+          <li class="services"><a href="#services">Services</a></li>
+          <li class="projects"><a href="#projects">Projects</a></li>
+          <li>Contact</li>
+          <li class="resume"><a href="">Resume</a></li>
+          <li><i class="fa-solid fa-moon"></i></li>
+        </ul>
+      </nav>
     </header>
-<div class="container1">
-    <div class="write-up">
+    <!-- <section id="home"></section> -->
+    <div class="container1" id="home">
+      <div class="write-up">
         <p class="hello">Hello There!</p>
-        <p class="intro">I'm <span><i>Rofiat Akintunde,</i></span><br>Web Developer and <br>UI/UX Designer <br>Based in Nigeria.</p>
+        <p class="intro">
+          I'm <span><i>Rofiat Akintunde,</i></span
+          ><br />Web Developer and <br />UI/UX Designer <br />Based in Nigeria.
+        </p>
 
         <p class="note">
-            I am a web developer and UI/UX designer focused on <br> creating clean, user-friendly, and visually engaging digital experiences. 
+          I am a web developer and UI/UX designer focused on <br />
+          creating clean, user-friendly, and visually engaging digital
+          experiences.
         </p>
 
         <a class="hire" href="">Hire me</a>
+      </div>
+      <div class="image">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Necessitatibus excepturi soluta cupiditate ipsum accusamus, culpa
+          molestias rem, illo vitae cum mollitia magni. Atque adipisci neque
+          possimus dolores, quas natus vitae?
+        </p>
+      </div>
     </div>
-    <div class="image">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus excepturi soluta cupiditate ipsum accusamus, culpa molestias rem, illo vitae cum mollitia magni. Atque adipisci neque possimus dolores, quas natus vitae?</p>
+
+    <div class="services" id="services">
+      <p>- services</p>
+      <h2>
+        <span><i>Services</i></span> I provide
+      </h2>
+
+      <div class="grid-service">
+        <div class="grid-child one">
+          <p class="uiux"><strong>UI/UX Design</strong></p>
+          <p class="uiuxx">
+            I design clean, user-friendly interfaces that focus on both
+            aesthetics and usability. My goal is to create experiences, that are
+            simple, intuitive, and visually appealing, ensuring users can
+            navigate and interact with ease.
+          </p>
+        </div>
+        <div class="grid-child two">
+          <p class="uiux"><strong>Web Development</strong></p>
+          <p class="uiuxx">
+            I build responsive and functional website using modern web
+            technologies. From simple landing pages to interactive web
+            applications, I focus on writing clean code and creating smooth user
+            experienves across all devices.
+          </p>
+        </div>
+        <div class="grid-child three">88888</div>
+      </div>
     </div>
 
-</div>
+    <div class="projects" id="projects">
+        <p>- projects</p>
+<h2>
+        <span><i>My</i></span> Projects
+      </h2>
 
-<div class="services">
-    <p>- services</p>
-    <h2><span><i>Services</i></span> I provide</h2>
-
-    <div class="grid-service">
-         <div class="grid-child one">
-            <p class="uiux"><strong>UI/UX Design</strong></p>
-            <p class="uiuxx">I design clean, user-friendly interfaces that focus on both aesthetics and usability. My goal is to create experiences, that are simple, intuitive, and visually appealing, ensuring users can navigate and interact with ease.</p>
-         </div>
-         <div class="grid-child two"> <p class="uiux"><strong>Web Development</strong></p>
-            <p class="uiuxx">I build responsive and functional website using modern web technologies. From simple landing pages to interactive web applications, I focus on writing clean code and creating smooth user experienves across all devices.</p></div>
-         <div class="grid-child three">88888</div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, et autem recusandae aperiam soluta eum reiciendis? Facere hic velit quisquam fuga veniam explicabo nemo odio maxime voluptate quis recusandae earum reiciendis ad atque, illum assumenda consectetur, impedit fugit magnam asperiores voluptas tempore quas officiis sequi. Dignissimos corporis consectetur nihil adipisci tenetur pariatur optio perferendis, inventore ipsa saepe eos, modi provident odio harum omnis iure alias architecto ullam magnam fugit reprehenderit porro ab quo facere. Fuga dicta nulla consequuntur iste explicabo expedita nihil, voluptas aut accusantium. Inventore in rerum incidunt ipsam reprehenderit cum debitis voluptatum minus esse dolore! At a quaerat eum maxime rem voluptatum perspiciatis, sed maiores aliquam nostrum dolore ut dignissimos. Laboriosam dolores deserunt eveniet nostrum? Hic eligendi earum, sed quam est saepe nulla quidem ratione, ab voluptatum modi doloremque reprehenderit sint atque officiis explicabo facere, consequuntur nobis? Officiis et similique atque! Praesentium ipsa cupiditate a sint. Ipsum aliquam, nihil optio magnam qui eligendi officiis vero amet dolorum a accusantium. Fuga, saepe quae voluptatum sequi totam pariatur velit commodi delectus nulla dolor, aliquam dignissimos reiciendis nam magni impedit quibusdam iste tempore. Laboriosam magnam voluptas corrupti aut? Maxime cumque quibusdam pariatur soluta excepturi deleniti quis facilis ducimus, fugit suscipit tempora.
     </div>
-</div>
 
-<script src="app.js"></script>
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>
