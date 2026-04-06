@@ -17,6 +17,7 @@ body {
 
 .dark-mode{
   background-color: #385144;
+  background-color: #131f19;
   transition: all 0.5s;
   color: white;
 }
@@ -224,9 +225,7 @@ a:hover {
   padding: 0 5%;
   line-height: 3rem;
 
-  span {
-    color: #222;
-  }
+  
 }
 
 .grid-service {
@@ -236,7 +235,7 @@ a:hover {
   margin: 2rem;
   /* background-color: aquamarine; */
   gap: 5rem;
-
+  
   .grid-child {
     height: 250px;
     background: #614280;
@@ -245,7 +244,22 @@ a:hover {
     border-radius: 20px;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 1);
     font-size: 30px;
+    padding: 5px;
   }
+}
+
+.dark-mode .grid-child{
+  background-color: #385144;
+  /* color: #f1edf3; */
+}
+
+.dark-mode .uiux{
+  color: #f1edf3;
+  
+}
+.dark-mode .uiuxx{
+  color: #f1edf3;
+
 }
 
 .one {
@@ -265,9 +279,105 @@ a:hover {
   padding: 0 7px;
 }
 
-#projects {
-  padding: 20px;
+
+.projects{
+  padding: 0 5%;
+  line-height: 3rem;
+  display: block;
+
+  
+    /* margin-bottom: 5px; */
+  
+
 }
+
+#projects{
+  display: block;
+}
+
+
+.project-grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: 2rem;
+  gap: 1.5rem;
+}
+
+.konga-grid{
+  /* width: 300px; */
+  background-color: #385144;
+  border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    /* color: white; */
+   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+
+  img{
+    width: 350px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+  }
+  span{
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+
+  p{
+    color: white;
+    font-size: 14px;
+    padding:0 15px;
+    line-height: 1.5rem;
+  }
+}
+
+.livehub {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 10px 20px 10px;
+  font-size: 18px;
+
+
+  .live-mode, .repo{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+
+  }
+  
+  a:hover{
+    text-decoration: underline;
+    transition: all 0.5s;
+  }
+
+
+}
+
+.dark-mode .konga-grid{
+  /* background-color: #f1edf3; */
+  color: #385144;
+
+
+}
+
+/* .dark-mode .live-mode{
+  color: #385144;
+}
+
+.dark-mode .repo{
+  color: #385144;
+}
+
+.dark-mode .konga-writeup{
+  color: #385144;
+}
+
+.dark-mode .kong{
+  color: #385144;
+} */
+
+
+
 
 @media (max-width: 1440px) {
   body {
