@@ -56,6 +56,12 @@ ul {
   }
 }
 
+.fa-moon{
+  margin-left: 4px;
+  font-size: 30px;
+  /* transform: rotate(190deg); */
+}
+
 .resume a{
 text-decoration: none;
 padding: 10px;
