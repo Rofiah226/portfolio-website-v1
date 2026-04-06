@@ -230,7 +230,7 @@ a:hover {
 
 .grid-service {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   padding: 1rem 5rem;
   margin: 2rem;
   /* background-color: aquamarine; */
@@ -244,7 +244,7 @@ a:hover {
     border-radius: 20px;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 1);
     font-size: 30px;
-    padding: 5px;
+    /* padding: ; */
   }
 }
 
@@ -300,10 +300,66 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(3,1fr);
   margin: 2rem;
-  gap: 1.5rem;
+  gap: 2.5rem;
 }
 
 .konga-grid{
+  /* width: 300px; */
+  background-color: #385144;
+  border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    /* color: white; */
+   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+
+  img{
+    width: 350px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+  }
+  span{
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+
+  p{
+    color: white;
+    font-size: 14px;
+    padding:0 15px;
+    line-height: 1.5rem;
+  }
+}
+
+.cafe-grid{
+  /* width: 300px; */
+  background-color: #385144;
+  border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    /* color: white; */
+   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+
+  img{
+    width: 350px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+  }
+  span{
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+
+  p{
+    color: white;
+    font-size: 14px;
+    padding:0 15px;
+    line-height: 1.5rem;
+  }
+}
+
+.jumia-grid{
   /* width: 300px; */
   background-color: #385144;
   border-top-left-radius:10px ;
