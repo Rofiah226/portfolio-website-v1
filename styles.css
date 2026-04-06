@@ -21,14 +21,7 @@ body {
   color: white;
 }
 
-.dark-mode header{
-  background-color: #f8f5f2;
-  color: #385144;
-}
 
-.dark-mode .lg{
-  background-color: #385144;
-}
 
 .container{
   /* background: #000; */
@@ -53,16 +46,23 @@ header {
   z-index: 1000;
 }
 
+.dark-mode header{
+  background-color: #f8f5f2;
+  color: #385144;
+}
 .logo {
   display: flex;
   gap: 5px;
   align-items: center;
-
+  
   .lg {
     padding: 0px 20px;
     background-color:seashell ;
     border-radius: 100%;
   }
+}
+.dark-mode .lg{
+  background-color: #385144;
 }
 
 ul {
@@ -240,6 +240,7 @@ a:hover {
   .grid-child {
     height: 250px;
     background: #614280;
+    background-color: #F8F5F2;
     /* background-color: #385144; */
     border-radius: 20px;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 1);
@@ -293,7 +294,7 @@ a:hover {
 
     .grid-child {
       height: 250px;
-      background: #f1edf3;
+      /* background: #f1edf3; */
       /* background-color: crimson; */
       font-size: 16px;
       border-radius: 20px;
@@ -327,7 +328,7 @@ a:hover {
 
     .grid-child {
       height: 250px;
-      background: #f7f3fa;
+      /* background: #f7f3fa; */
       /* background-color: crimson; */
       font-size: 16px;
       border-radius: 20px;
@@ -416,6 +417,16 @@ padding: 10px;
   }
 
 
+  header{
+    gap: 2px;
+    justify-content: center;
+  }
+
+  ul{
+    gap: 2px;
+  }
+
+
 .container1{
     font-size: 1rem;
     padding: 0;
@@ -425,6 +436,8 @@ padding: 10px;
 
   .profile-img{
     width: 300px;
+    margin: 0 auto;
+    display: block;
   }
 
   #introduction{
@@ -443,12 +456,13 @@ padding: 10px;
 
   .grid-service{
     grid-template-columns: repeat(1,1fr);
-    padding:1rem 2rem ;
+    margin: 0 auto;
+    /* padding:1rem 2rem ; */
     
 
     .grid-child{
-      width: 200px;
-      height: 210px;
+      width: 300px;
+      height: 200px;
     }
   }
 }
